@@ -1,4 +1,4 @@
-name: Deploy Vulnerable Application                                  # workflow name
+name: Deploy Vulnerable Application
 
 on:
   push:
@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+      - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "app-vulnerable2022" #Must be unique in Heroku
-          heroku_email: "roxsrossve@gmail.com"
+          heroku_api_key: ${{HRKU-AATGuRO1FUBuSysqBjp5e6WeYgC_uVRHKIjL5B6y_bng_____wpI2t_TuAVP}}
+          heroku_app_name: "guillermo-maquieira-vwa-641b7bb748ca" #Must be unique in Heroku
+          heroku_email: "guimaq@gmail.com"
           remote_branch: "master"
           usedocker: true
