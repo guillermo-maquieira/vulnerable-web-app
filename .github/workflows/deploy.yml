@@ -13,7 +13,7 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{HRKU-AATGuRO1FUBuSysqBjp5e6WeYgC_uVRHKIjL5B6y_bng_____wpI2t_TuAVP}}
-          heroku_app_name: "guillermo-maquieira-vwa-641b7bb748ca" #Must be unique in Heroku
+          heroku_app_name: "guillermo-maquieira-vwa-641b7bb748ca"
           heroku_email: "guimaq@gmail.com"
           remote_branch: "master"
           usedocker: true
